@@ -115,7 +115,7 @@ if len(str(numFiles)) >= 0:
     s.starttls() 
   
     # Authentication 
-    s.login(fromaddr, "Iloveanime95@@") 
+    s.login(fromaddr, "[Insert Password here]") 
   
     # Converts the Multipart msg into a string 
     text = msg.as_string() 
